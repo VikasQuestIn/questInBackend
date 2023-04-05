@@ -1,6 +1,6 @@
 const express=require('express');
 const app =express();
-const PORT=process.env.PORT || 8000
+const PORT=process.env.PORT || 8001
 // database connection 
 // const connectDB=require('./config/db')
 // connectDB();
