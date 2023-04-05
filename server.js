@@ -2,8 +2,8 @@ const express=require('express');
 const app =express();
 const PORT=process.env.PORT || 3000
 // database connection 
-const connectDB=require('./config/db')
-connectDB();
+// const connectDB=require('./config/db')
+// connectDB();
 //  All Routes 
 const userRouter=require('./routes/userRouter');
 app.use('/api/user',userRouter);
