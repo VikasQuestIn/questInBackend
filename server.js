@@ -8,6 +8,7 @@ const PORT=process.env.PORT || 3000
 const userRouter=require('./routes/userRouter');
 app.use('/api/user',userRouter);
 app.get('/',(req,res)=>{
+    console.log("Vikas route")
     res.json({msg:'Welcome to BTC QuestionIn'})
 })
 app.listen(PORT,()=>{
