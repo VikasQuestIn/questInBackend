@@ -9,7 +9,7 @@ const userRouter=require('./routes/userRouter');
 app.use('/api/user',userRouter);
 app.get('/',(req,res)=>{
     console.log("Vikas route")
-    res.json({msg:'Welcome to BTC QuestionIn'})
+    res.json({msg:'Welcome to BTC QuestionIn made by vikas tiwari'})
 })
 app.listen(PORT,()=>{
     console.log(`Listing on port ${PORT}`)
